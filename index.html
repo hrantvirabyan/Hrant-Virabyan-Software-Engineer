@@ -31,7 +31,7 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -55,8 +55,9 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Hrant Virabyan">Hrant Virabyan</h1>
+          <h1 class="name name-glow" title="Hrant Virabyan">Hrant Virabyan</h1>
 
+          <p class="tagline">Founder @ Remore | Building the future of digital legacy</p>
           <p class="title">Software Engineer - Mathematician</p>
         </div>
 
@@ -83,7 +84,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:hvirabyan003@gmail.com" class="contact-link">hvirabyan003@gmail.com</a>
+              <a href="mailto:hrant@berkeley.edu" class="contact-link">hrant@berkeley.edu</a>
             </div>
 
           </li>
@@ -115,7 +116,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Berkeley, California, USA</address>
+              <address>Berkeley, CA</address>
             </div>
 
           </li>
@@ -141,6 +142,12 @@
           <li class="social-item">
             <a href="https://github.com/hrantvirabyan" class="social-link" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/hrant-virabyan-8375a4236/" class="social-link" target="_blank" title="Portfolio">
+              <ion-icon name="globe-outline"></ion-icon>
             </a>
           </li>
 
@@ -200,26 +207,67 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="about  active" data-page="about" data-animate>
 
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
 
         <section class="about-text">
-          <p>
-            
-Based in Berkeley, CA, I am on track to earn a BA in Applied Mathematics from the University of California, Berkeley in 2026, with a minor in Computer Science. My professional journey includes a pivotal role as a Broker at Syndicated Insurance,
-  where I have been instrumental in client satisfaction and business growth since December 2021. My technical acumen was further developed during my tenure 
-as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-driven decisions and application efficiency across PeopleSoft platforms.
+          <p class="intro-text hero-gradient">
+            I build AI-powered experiences that preserve memories and solve meaningful problems.
+            <span class="shimmer-line"></span>
           </p>
 
           <p>
-            As President of the Computer Science Club (Meetcode), I led initiatives to bolster peer learning and career readiness,
-             focusing on algorithms, problem-solving, and professional development. My stint as a Civil Engineering & Land Surveying Intern at HDSAG Inc. 
-            enriched my experience with practical engineering solutions and regulatory compliance, ensuring project success..
+            Based in Berkeley, CA, I'm a Software Engineer and Applied Mathematics student at UC Berkeley, graduating May 2026. Currently, I'm the Founder & Lead Engineer at Remore, building an AI-powered digital legacy platform with 100+ early users.
           </p>
-          <p>I possess strong technical skills in Python, C++, JavaScript, Java, and MySQL, demonstrated through my experience and numerous projects avaiable on my github..</p>
+
+          <div class="quick-stats">
+            <div class="metric-card">
+              <ion-icon name="rocket-outline"></ion-icon>
+              <div class="stat-content">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Users on Remore</span>
+              </div>
+            </div>
+            <div class="metric-card">
+              <ion-icon name="briefcase-outline"></ion-icon>
+              <div class="stat-content">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+            </div>
+            <div class="metric-card">
+              <ion-icon name="location-outline"></ion-icon>
+              <div class="stat-content">
+                <span class="stat-number">Berkeley</span>
+                <span class="stat-label">CA</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-highlight">
+            <h3 class="h3">Core Competencies</h3>
+            <div class="skills-badges">
+              <div class="skill-category-badge">
+                <ion-icon name="code-slash-outline"></ion-icon>
+                <span class="badge-title">Languages</span>
+              </div>
+              <div class="skill-category-badge">
+                <ion-icon name="construct-outline"></ion-icon>
+                <span class="badge-title">Developer Tools</span>
+              </div>
+              <div class="skill-category-badge">
+                <ion-icon name="layers-outline"></ion-icon>
+                <span class="badge-title">Frameworks & Libraries</span>
+              </div>
+              <div class="skill-category-badge">
+                <ion-icon name="analytics-outline"></ion-icon>
+                <span class="badge-title">Data Science & Analysis</span>
+              </div>
+            </div>
+          </div>
         </section>
 
 
@@ -260,7 +308,7 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
                 <h4 class="h4 service-item-title">Machine Learning and AI</h4>
 
                 <p class="service-item-text">
-                  Begginer level AI training and modeling.
+                  Building and deploying AI models for automation and personalization.
                 </p>
               </div>
 
@@ -500,7 +548,7 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+      <article class="resume" data-page="resume" data-animate>
 
         <header>
           <h2 class="h2 article-title">Resume</h2>
@@ -524,10 +572,10 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
 
               <h4 class="h4 timeline-item-title">University of California, Berkeley</h4>
 
-              <span>2024-2026</span>
+              <span>May 2026</span>
 
               <p class="timeline-text">
-                Bachelor of Arts - Applied Mathematics, Computer Science
+                BA - Applied Mathematics & Computer Science
               </p>
 
             </li>
@@ -551,52 +599,42 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
           <ol class="timeline-list">
             <li class="timeline-item">
 
+              <h4 class="h4 timeline-item-title">Founder & Lead Engineer - Remore</h4>
+
+              <span>May 2025 – Present</span>
+
+              <p class="timeline-text">
+                • Built an AI-powered digital legacy platform that organizes and preserves family memories, attracting 100+ early users across multiple families.
+                <br>• Developed a full-stack web app (React, TypeScript, Firebase) with 95%+ UI responsiveness and secure real-time access of 50gb of storage for each user.
+                <br>• Implemented AI summarization and tagging pipelines, cutting manual organization time by 75% and increasing user engagement.
+              </p>
 
             </li>
 
-              <h4 class="h4 timeline-item-title">Software Engineer & Mathematics - Contract  - Outlier AI		</h4>
-
-              <span>May 2024 - Present              </span>
-
-              <p class="timeline-text">
-              ►Trained five AI models for coding in Python, C++, Java, and advanced mathematics.
-                
-                
-                
-                <br>►Reviewed and corrected over 100 projects from other employees, enhancing the accuracy and reliability of AI models.
-                
-                <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Software Engineer Intern - Ser Style	</h4>
-
-              <span>March 2024-Present</span>
-
-              <p class="timeline-text">
-                ►Developed and implemented a system software application, utilizing image processing and machine learning algorithms.
-                
-                
-                
-                
-                
-                
-                <br>►Designed and coded data management processes for handling and processing large datasets.
-                <br>►Created intuitive user interfaces for all applications, enhancing user experience and interaction.
-                
-
-            </li>                
-
-            </li>
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">X Developer Challenge - Developer	</h4>
+              <h4 class="h4 timeline-item-title">Software Engineer & Mathematics - Contract - Outlier AI</h4>
 
-              <span>April 2024</span>
+              <span>May 2024 - Present</span>
 
               <p class="timeline-text">
-                ►Led the backend development, utilizing FastAPI and X API for efficient data fetching and manipulation
-                
-                <br>►Implemented advanced features using the XAI API for Grok AI, enhancing the application's analytical capabilities and providing deep insights into user’s personal data to drive engagement and usability.
-                
+                • Trained 9 AI models for coding in Python, C++, Java, and advanced mathematics.
+                <br>• Reviewed and corrected over 100 projects from other employees, enhancing the accuracy and reliability of AI models.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer Intern – Perr & Knight</h4>
+
+              <span>June 2025 - August 2025</span>
+
+              <p class="timeline-text">
+                • Developed internal tools in C# and Python to automate insurance policy data processing, reducing analyst workload by 40% and accelerating client deliverables.
+                <br>• Built and deployed RESTful APIs that cut report generation time by 90%, improving turnaround for actuarial and compliance teams.
+                <br>• Refactored 10+ legacy modules to improve system reliability and maintainability, reducing tech debt by 5% and easing onboarding for new developers.
+              </p>
 
             </li>
 
@@ -607,36 +645,8 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
               <span>May 2023 - December 2023</span>
 
               <p class="timeline-text">
-                ►Wrote SQL queries and navigated Oracle DBMS for data-driven decisions; optimized data storage, retrieval, and security resulting in increased business logic in over 13 PeopleSoft applications and more efficient admissions system, improving access and usability for the 1.9 million students across the 9 colleges.
-                <br>►Customized and Specialized in seamlessly integrating SQL applications with Oracle databases and mastered PeopleCode integration for streamlined operations in PeopleSoft environments consisting of hundreds of applications.
-                
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Civil Engineering & Land Surveying Intern - HDSAG Inc.</h4>
-
-              <span>December 2022 - May 2023 — 2013</span>
-
-              <p class="timeline-text">
-                    ►Conducted over 100 land surveys, utilizing advanced surveying equipment and software, resulting in accurate site analysis and data collection for civil engineering projects.
-                <br>►Assisted in the design and oversight of 50+ small-scale infrastructure projects, ensuring compliance with local regulations, sustainability standards, and client specifications, leading to a 100% approval rate from senior engineers.
-                <br>►Analyzed and computed data for 60+ topographic and boundary surveys, resulting in a faster yield of 30%
-
-              </p>
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Insurance Broker - Syndicated Insurance</h4>
-
-              <span>December 2021 — Present</span>
-
-              <p class="timeline-text">
-                ►Licensed in insurance laws, policies, and processes ensuring 100% satisfaction among clients and families
-                <br>►Oversaw relationships with hundreds of doctors, patients, and a team to create trust, and familiarize myself with regulations and processes which increased the company's productivity by adding extra 30 members to the book of business each month. 
-
+                • Wrote SQL queries and navigated Oracle DBMS for data-driven decisions; optimized data storage, retrieval, and security, resulting in increased business logic in over 13 PeopleSoft applications and a more efficient admissions system, improving access and usability for the 1.9 million students across the 9 colleges.
+                <br>• Integrated SQL applications with Oracle databases and implemented PeopleCode to streamline operations across 1000+ applications.
               </p>
 
             </li>
@@ -644,7 +654,41 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
           </ol>
 
         </section>
-<!----><!--
+
+        <section class="skill">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Technical Skills</h3>
+          </div>
+
+          <div class="skills-content">
+            <div class="skills-category">
+              <h4 class="h4 skills-category-title">Languages</h4>
+              <p class="skills-text">Python, R, JavaScript, Java, C++, C#, SQL, HTML/CSS, PeopleCode</p>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4 skills-category-title">Developer Tools</h4>
+              <p class="skills-text">MongoDB, AWS, Heroku, Git/GitHub, Postman, Query Manager</p>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4 skills-category-title">Frameworks & Libraries</h4>
+              <p class="skills-text">Flask, Express, Node.js, OpenCV, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn</p>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4 skills-category-title">Data Science & Analysis</h4>
+              <p class="skills-text">Statistical Inference, Predictive Modeling, Data Cleaning, Exploratory Data Analysis, Data Visualization, Machine Learning</p>
+            </div>
+          </div>
+
+        </section>
+<!--
         <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
@@ -717,7 +761,7 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
         <!-- #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="portfolio" data-animate>
 
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
@@ -790,8 +834,44 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
 
           <ul class="project-list">
 
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#" target="_blank">
 
- 
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg.png" alt="X Developer Hackathon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">X (Twitter) Developer Hackathon</h3>
+
+                <p class="project-category">Applications (FastAPI, X API, XAI API)</p>
+                <p class="project-description">Led the backend development with 4 developers, utilizing FastAPI and X API for efficient data fetching and manipulation. Implemented advanced features using the XAI API for Grok AI, enhancing the application's analytical capabilities and providing deep insights into users' data to drive engagement and usability.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning and ai">
+              <a href="https://github.com/hrantvirabyan/Plate-Detector-ML" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ML.png" alt="Advanced Vehicle and License Plate Detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Advanced Vehicle and License Plate Detection System</h3>
+
+                <p class="project-category">Machine Learning and AI (Python, YOLO, cv2, easyocr, numpy, pandas)</p>
+                <p class="project-description">Utilized YOLOv8 and custom Plate Detector models for separate vehicle and plate detection. Programmed separate algorithm, which increased accuracy by 30% and processing by 25% in real-time detection compared to the raw model.</p>
+
+              </a>
+            </li>
+
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://chromewebstore.google.com/detail/unfollowx/dgococmlmhemkbplcdichmogidndmhhk" target="_blank">
 
@@ -830,25 +910,6 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
 
 
 
-            <li class="project-item  active" data-filter-item data-category="machine learning and ai">
-              <a href="https://github.com/hrantvirabyan/Plate-Detector-ML" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/ML.png" alt="AI" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Plate Detector ML</h3>
-
-                <p class="project-category">Machine Learning and AI (Python)</p>
-
-              </a>
-            </li>
-
-            
 <!--
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#"target="_blank">
@@ -991,7 +1052,7 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
         - #video
       -->
 
-      <article class="videos" data-page="videos">
+      <article class="videos" data-page="videos" data-animate>
 
         <header>
           <h2 class="h2 article-title">Videos</h2>
@@ -1156,7 +1217,7 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+      <article class="contact" data-page="contact" data-animate>
 
         <header>
           <h2 class="h2 article-title">Contact</h2>
@@ -1165,7 +1226,7 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.04410562495!2d-118.74137439752133!3d34.0206084680616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1707618003646!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.24448992826!2d-122.331801!3d37.871593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085793638541543%3A0x94ea03061739780!2sBerkeley%2C%20CA!5e0!3m2!1sen!2sus!4v1707618003646!5m2!1sen!2sus"
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
@@ -1174,7 +1235,7 @@ as a Software Engineer Intern at LACCD (May to December 2023), enhancing data-dr
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form target="_blank" action="https://formsubmit.co/hvirabyan003@gmail.com" method="POST" target="index.html">
+          <form target="_blank" action="https://formsubmit.co/hrant@berkeley.edu" method="POST" target="index.html">
 
             <div class="input-wrapper">
               <input type="text" name="Name" class="form-input" placeholder="Full name" required data-form-input>
